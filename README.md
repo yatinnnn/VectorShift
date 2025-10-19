@@ -24,8 +24,8 @@ This repository contains the solution to the **VectorShift Frontend Technical As
    - Run the following command:
      ```bash
      python -m venv venv
-     source venv/Scripts/activate (for Windows )
-     source venv/bin/activate ( for macOS )
+     source venv/Scripts/activate (for Windows)
+     source venv/bin/activate (for macOS)
      pip install -r requirements.txt
      uvicorn main:app --reload
      ```
