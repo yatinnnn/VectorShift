@@ -23,6 +23,9 @@ This repository contains the solution to the **VectorShift Frontend Technical As
    - Navigate to the `/backend` folder.
    - Run the following command:
      ```bash
+     python -m venv venv
+     source venv/Scripts/activate
+     pip install -r requirements.txt
      uvicorn main:app --reload
      ```
    - The backend will start on `http://localhost:8000`.
